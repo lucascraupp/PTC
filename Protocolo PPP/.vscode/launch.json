@@ -1,0 +1,26 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Rx",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Protocolo/rx_enlace.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : ["/dev/pts/4"]
+        },
+        {
+            "name": "Python: Tx",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Protocolo/tx_enlace.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : ["/dev/pts/3"]
+        }
+    ]
+}

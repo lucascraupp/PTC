@@ -1,0 +1,68 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: Cliente RRQ",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Cliente/cliente.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["127.0.0.1", "6969", "rrq", "Lusíadas.pdf"]
+        },
+
+        {
+            "name": "Python: Cliente WRQ",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Cliente/cliente.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["127.0.0.1", "6969", "wrq", "teste.txt"]
+        },
+
+        {
+            "name": "Python: Cliente LIST",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Cliente/cliente.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["127.0.0.1", "6969", "list", "./"]
+        },
+
+        {
+            "name": "Python: Cliente MKDIR",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Cliente/cliente.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["127.0.0.1", "6969", "mkdir", "teste"]
+        },
+        
+        {
+            "name": "Python: Cliente MOVE",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Cliente/cliente.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["127.0.0.1", "6969", "move", "teste.txt"]
+        },
+        
+        {
+            "name": "Python: Servidor",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Servidor/servidor.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["/home/lucas/PTC/Servidor/", "6969"]
+        }
+    ]
+}
